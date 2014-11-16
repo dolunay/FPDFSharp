@@ -1,0 +1,5 @@
+D:\Projects\FPDFSharp\FPDFSharp\bin\Debug\FPDFSharp.dll
+D:\Projects\FPDFSharp\FPDFSharp\bin\Debug\FPDFSharp.pdb
+D:\Projects\FPDFSharp\FPDFSharp\obj\Debug\FPDFSharp.dll
+D:\Projects\FPDFSharp\FPDFSharp\obj\Debug\FPDFSharp.pdb
+D:\Projects\FPDFSharp\FPDFSharp\obj\Debug\FPDFSharp.csprojResolveAssemblyReference.cache

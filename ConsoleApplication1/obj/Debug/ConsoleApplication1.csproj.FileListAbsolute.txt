@@ -1,0 +1,8 @@
+D:\Projects\FPDFSharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Projects\FPDFSharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Projects\FPDFSharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Projects\FPDFSharp\ConsoleApplication1\bin\Debug\FPDFSharp.dll
+D:\Projects\FPDFSharp\ConsoleApplication1\bin\Debug\FPDFSharp.pdb
+D:\Projects\FPDFSharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Projects\FPDFSharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Projects\FPDFSharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
