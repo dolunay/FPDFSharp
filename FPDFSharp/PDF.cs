@@ -4057,7 +4057,7 @@ namespace FPDFSharp
             var s = "";
             var buffer = new byte[n];
             var bytesRead = f.Read(buffer, 0, n);
-            if (parseToUtf8)
+            if (parseToUtf8 && false)
             {
                 var s2 = System.Text.Encoding.UTF8.GetString(buffer);
                 return s2;
@@ -4509,7 +4509,7 @@ namespace FPDFSharp
             this.Out("0000000000 65535 f ");
             for (var i = 1; i <= this.n; i++)
             {
-                this.Out(string.Format("{0} 0000 n ", this.Offsets[i].ToString("0000000000")));
+                this.Out(string.Format("{0} 00000 n ", this.Offsets[i].ToString("0000000000")));
             }
             //Trailer
             this.Out("trailer");
