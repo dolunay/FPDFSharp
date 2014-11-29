@@ -1,0 +1,13 @@
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FPDFSharpTests.dll
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FPDFSharpTests.pdb
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.Core.dll
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.dll
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FPDFSharp.dll
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FPDFSharp.pdb
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.pdb
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.xml
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.Core.pdb
+D:\Projects\FPDFSharp\FPDFSharpTests\bin\Debug\FluentAssertions.Core.xml
+D:\Projects\FPDFSharp\FPDFSharpTests\obj\Debug\FPDFSharpTests.csprojResolveAssemblyReference.cache
+D:\Projects\FPDFSharp\FPDFSharpTests\obj\Debug\FPDFSharpTests.dll
+D:\Projects\FPDFSharp\FPDFSharpTests\obj\Debug\FPDFSharpTests.pdb
