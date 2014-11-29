@@ -117,7 +117,7 @@ namespace ConsoleApplication1
             this.SetX(x);
         }
 
-        public bool AcceptPageBreak()
+        public override bool AcceptPageBreak()
         {
             if (this._col < 2)
             {
@@ -348,28 +348,28 @@ namespace ConsoleApplication1
             //tut1.Output("D:\\fpdfsharptuts\\tut1.pdf");
 
             //TODO images
-            var tut2 = new tut2();
-            tut2.Compress = false;
-            tut2.AliasNBPages();
-            tut2.AddPage();
-            tut2.SetFont("Times", "", 12);
-            for (var i = 1; i <= 40; i++)
-            {
-                tut2.Cell(0, 10, "Printing line number " + i, "0", 1);
-            }
-            tut2.Output("D:\\fpdfsharptuts\\tut2.pdf");
+            //var tut2 = new tut2();
+            //tut2.Compress = false;
+            //tut2.AliasNBPages();
+            //tut2.AddPage();
+            //tut2.SetFont("Times", "", 12);
+            //for (var i = 1; i <= 40; i++)
+            //{
+            //    tut2.Cell(0, 10, "Printing line number " + i, "0", 1);
+            //}
+            //tut2.Output("D:\\fpdfsharptuts\\tut2.pdf");
 
             //TODO possible encoding problem otherwise good
             //var tut3 = new tut3();
             //tut3.Compress = false;
-            var title = "20000 Leagues Under the Seas";
-            //tut3.SetTitle(title);
-            //tut3.SetAuthor("Jules Verne");
-            //tut3.PrintChapter(1, "A RUNAWAY REEF", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c1.txt");
-            //tut3.PrintChapter(2, "THE PROS AND CONS", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c2.txt");
-            //tut3.Output("D:\\fpdfsharptuts\\tut3.pdf");
+            //var title = "20000 Leagues Under the Seas";
+            ////tut3.SetTitle(title);
+            ////tut3.SetAuthor("Jules Verne");
+            ////tut3.PrintChapter(1, "A RUNAWAY REEF", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c1.txt");
+            ////tut3.PrintChapter(2, "THE PROS AND CONS", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c2.txt");
+            ////tut3.Output("D:\\fpdfsharptuts\\tut3.pdf");
 
-            //TODO broken columns
+            ////TODO broken columns
             //var tut4 = new tut4();
             //tut4.Compress = false;
             //tut4.SetTitle(title);
@@ -377,21 +377,21 @@ namespace ConsoleApplication1
             //tut4.PrintChapter(1, "A RUNAWAY REEF", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c1.txt");
             //tut4.PrintChapter(2, "THE PROS AND CONS", "D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\20k_c2.txt");
             //tut4.Output("D:\\fpdfsharptuts\\tut4.pdf");
-
+            //System.Diagnostics.Process.Start("D:\\fpdfsharptuts\\tut4.pdf");
             //todo 
-            //var tut5 = new tut5();
-            //tut5.Compress = false;
-            //var header = new List<string> { "Country", "Capital", "Area (sq km)", "Pop. (thousands)" };
-            //var data = tut5.LoadData("D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\countries.txt");
-            //tut5.SetFont("Arial", "", 14);
-            //tut5.AddPage();
-            //tut5.BasicTable(header, data);
-            //tut5.AddPage();
-            //tut5.ImprovedTable(header, data);
-            //tut5.AddPage();
-            //tut5.FancyTable(header, data);
-            //tut5.Output("D:\\fpdfsharptuts\\tut5.pdf");
-
+            var tut5 = new tut5();
+            tut5.Compress = false;
+            var header = new List<string> { "Country", "Capital", "Area (sq km)", "Pop. (thousands)" };
+            var data = tut5.LoadData("D:\\Projects\\FPHPTest\\FPHPTest\\tutorial\\countries.txt");
+            tut5.SetFont("Arial", "", 14);
+            tut5.AddPage();
+            tut5.BasicTable(header, data);
+            tut5.AddPage();
+            tut5.ImprovedTable(header, data);
+            tut5.AddPage();
+            tut5.FancyTable(header, data);
+            tut5.Output("D:\\fpdfsharptuts\\tut5.pdf");
+            System.Diagnostics.Process.Start("D:\\fpdfsharptuts\\tut5.pdf");
             ////todo link
             //var html = "You can now easily print text mixing different styles: <b>bold</b>, <i>italic</i>, <u>underlined</u>, or <b><i><u>all at once</u></i></b>!<br><br>You can also insert links on text, such as <a href=\"http://www.fpdf.org\">www.fpdf.org</a>, or on an image: click on the logo.";
             //var tut6 = new tut6();

@@ -650,7 +650,7 @@ namespace FPDFSharp
             var s = string.Format("BT {0:0.00} {1:0.00} Td ({2}) Tj ET", x * k, (h - y) * k, Escape(txt));
         }
 
-        public bool AcceptPageBreak()
+        public virtual bool AcceptPageBreak()
         {
             return AutoPageBreak;
         }
